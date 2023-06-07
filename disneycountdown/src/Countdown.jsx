@@ -41,21 +41,21 @@ export default function Countdown() {
 
   return (
     <>
-      {isLoading ? (
-      <h1 className="loading">Loading Countdown...</h1> 
-      ) : (
-        <div className="container">
-          <div className="card">
-            <h1>Cudmores Disney Countdown!</h1>
-            <div className="countdown">
-              <div><p>{days}</p><h3>Days</h3></div>
-              <div><p>{hours}</p><h3>Hours</h3></div>
-              <div><p>{minutes}</p><h3>Minutes</h3></div>
-              <div><p>{seconds}</p><h3>Seconds</h3></div>
+        <div className="card">
+          {isLoading ? (
+            <h1 className="loading">Loading Countdown...</h1> 
+          ) : (
+            <div>
+              <h1>Cudmores Disney Countdown!</h1>
+              <div className="countdown">
+                <div><p>{days}</p><h3>Days</h3></div>
+                <div><p>{hours}</p><h3>Hours</h3></div>
+                <div><p>{minutes}</p><h3>Minutes</h3></div>
+                <div><p>{seconds}</p><h3>Seconds</h3></div>
+              </div>
             </div>
-          </div>
+          )}
         </div>
-      )}
-      </>
+    </>
   )}
 

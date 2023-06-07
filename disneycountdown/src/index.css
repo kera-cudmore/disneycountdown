@@ -10,4 +10,11 @@ body {
   color: #333;
   background-image: url(https://e0.pxfuel.com/wallpapers/146/663/desktop-wallpaper-ioana-h-on-disney-mickey-mouse-mickey-mouse-iphone-disney-mickey-mouse-ears.jpg);
   background-size: cover;
-  font-family: 'Mouse Memoirs', sans-serif;}
+  font-family: 'Mouse Memoirs', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 20px;
+}
