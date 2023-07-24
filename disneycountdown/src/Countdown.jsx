@@ -9,7 +9,7 @@ export default function Countdown() {
 
 
   const countdown = () => {
-    const endDate = new Date("August 22, 2024 00:00:00")
+    const endDate = new Date("October 20, 2023 17:00:00")
     const today = new Date().getTime()
 
     const timeDiff = endDate - today
@@ -46,7 +46,7 @@ export default function Countdown() {
             <h1 className="loading">Loading Countdown...</h1> 
           ) : (
             <div>
-              <h1>Cudmores Disney Countdown!</h1>
+              <h1>Cudmores Disneyland Countdown!</h1>
               <div className="countdown">
                 <div><p>{days}</p><h3>Days</h3></div>
                 <div><p>{hours}</p><h3>Hours</h3></div>
