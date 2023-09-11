@@ -9,7 +9,7 @@ export default function Countdown() {
 
 
   const countdown = () => {
-    const endDate = new Date("October 20, 2023 17:00:00")
+    const endDate = new Date("October 20, 2023 00:00:01")
     const today = new Date().getTime()
 
     const timeDiff = endDate - today
